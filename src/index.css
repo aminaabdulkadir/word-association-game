@@ -1,0 +1,154 @@
+body{
+  background-color: #efebf0e1;
+}
+.app{
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande';
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  padding-top: 100px;
+ 
+}
+.level-selector{
+  margin-top: 100px;
+}
+.title{
+  text-align: center;
+}
+
+.question-area{
+  max-width: 1000px;
+  
+}
+
+.questions{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.question-box{
+  background-color: gainsboro;
+  padding: 10px;
+  border-radius: 20px;
+  margin: 10px;
+  transition: all 0.5s ease;
+}
+.question-box:hover{
+  background-color: #cfcfcf;
+}
+.question-buttons{
+  display: flex;
+  flex-direction: row;
+}
+.question-button{
+  display: flex;
+  flex-direction: column;
+  transition: all 0.5s ease;
+}
+
+.question-button:hover{
+  transform: scale(1.1);
+  }
+
+button{
+  margin: 5px;
+  padding: 8px;
+  border-radius: 5px;
+  border: none;
+  background-color:maroon;
+  color: white;
+  cursor: pointer;
+}
+
+button:disabled{
+  background-color: darkgray;
+  color:saddlebrown
+}
+
+select{
+  margin: 5px;
+  padding: 8px;
+  border-radius: 5px;
+  border: none;
+  background-color:maroon;
+  color: white;
+  cursor: pointer;
+}
+
+.nextLevel{
+  margin-right: 40px;
+  margin-top: 30px;
+  background-color: #efebf0e1;
+  color: maroon;
+  padding: 13px;
+  border: 1px solid maroon;
+  transition: all 0.5s ease;
+}
+
+.nextLevel:hover{
+  color: white;
+  background-color: maroon;
+  transform: scale(1.1);
+}
+
+.homeBtn{
+  margin-top: 30px;
+  background-color: #efebf0e1;
+  color: maroon;
+  padding: 13px;
+  border: 1px solid maroon;
+  transition: all 0.5s ease;
+}
+.homeBtn:hover{
+  color: white;
+  background-color: maroon;
+  transform: scale(1.1);
+}
+
+
+@media screen and (max-width: 767px){
+  .app{
+    padding-top: 40px;
+  }
+  .level-selector{
+    margin-top: 250px;
+    
+  }
+  .questions{
+    align-items: center;
+    justify-content: center;
+  }
+  .question-box{
+    flex-basis: 50%;
+  
+  }
+  .question-buttons{
+    align-items: center;
+    justify-content: center;
+  }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1023px){
+  .app{
+    padding-top: 40px;
+  }
+  .level-selector{
+    margin-top: 250px;
+    
+  }
+  .questions{
+    align-items: center;
+    justify-content: center;
+  }
+
+  .question-box{
+    flex-basis: 30%;
+  
+  }
+  .question-buttons{
+    align-items: center;
+    justify-content: center;
+  }
+
+}
