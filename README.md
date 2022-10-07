@@ -7,7 +7,7 @@
 ## Introduction
 Word Association Game is a vocabulary test with ten levels that ascendingly increase in complexity. the used API is from [RapidAPI](https://rapidapi.com/hub).
 
-The game depends on building logical relationships between words, which is a great exercise for the brain and also makes one more fluent :memo:
+The game depends on building logical relationships between words, which is a great exercise for the brain and also makes one more fluent :nerd_face::memo:
 
 
 ## Features
