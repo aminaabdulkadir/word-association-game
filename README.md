@@ -19,7 +19,7 @@ The game depends on building logical relationships between words, which is a gre
 ## Using the Application
 When you open the game, you select the level that you would like to start with, you then will be presented with question cards, you have to find the logical relationship between each word set and choose one of the two options. If you answer correctly you will gain a point, and you will lose one if the answer is wrong. your score counter will be at the top of the page. 
 
-## Running Home Flora Locally
+## Running Word Association Game Locally
 1. Clone the project.
 2. install dependencies by running (npm install or yarn install) in the command line/ terminal.
 3. set the required environment variables: (PORT - the RapidAPI key).
