@@ -5,10 +5,10 @@
 ![Home Flora](https://i.postimg.cc/vZMBpR6G/word-association-game-homepage.png)
 
 ## Introduction
-Word association game is a vocabulary test with ten levels that ascendingly increase in complexity. the used API is from rapidapi.com.
+Word Association Game is a vocabulary test with ten levels that ascendingly increase in complexity. the used API is from [RapidAPI](https://rapidapi.com/hub).
 
-The game depends on building logical relationships between words, which is a great exercise for the brain and also makes one more fluent 	:memo:
-:pencil:
+The game depends on building logical relationships between words, which is a great exercise for the brain and also makes one more fluent :memo:
+
 
 ## Features
 - The ability to navigate between levels from 1 to 10.
@@ -22,7 +22,7 @@ When you open the game, you select the level that you would like to start with, 
 ## Running Home Flora Locally
 1. Clone the project.
 2. install dependencies by running (npm install or yarn install) in the command line/ terminal.
-3. set the required environment variables: (PORT- the RapidAPI key) 
+3. set the required environment variables: (PORT - the RapidAPI key).
 4. start the backend by running (npm run start:backend).
 5. Start the fronted by running (npm run start: frontend).
 
