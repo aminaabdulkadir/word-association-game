@@ -1,6 +1,5 @@
 # Word Association Game.
 
-### [Live Site](https://word-association-game.herokuapp.com/)
 
 ![Home Flora](https://i.postimg.cc/vZMBpR6G/word-association-game-homepage.png)
 
